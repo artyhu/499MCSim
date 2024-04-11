@@ -15,7 +15,7 @@ def pert(a, b, c, size=1, lamb=4):
     beta = 1 + lamb * (c - b) / r
     return float(a + np.random.beta(alpha, beta, size=size) * r)
 
-rd = pd.read_excel('/Users/arthurhu/Documents/GitHub/499MCSim/database/Book1.xlsx')
+rd = pd.read_excel('/Users/arthurhu/Documents/GitHub/499MCSim/Data/Book1.xlsx')
 # link for the binom().rvs https://discovery.cs.illinois.edu/learn/Polling-Confidence-Intervals-and-Hypothesis-Testing/Python-Functions-for-Random-Distributions/#:~:text=pmf()%20and%20.,a%20fixed%20probability%20of%20occurring.
 
 

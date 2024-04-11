@@ -5,7 +5,7 @@ import pandas as pd
 from scipy.stats import binom
 
 # For data sets without responses (except declined)
-rd = pd.read_excel('/Users/arthurhu/Documents/GitHub/499MCSim/database/Book1.xlsx')
+rd = pd.read_excel('/Users/arthurhu/Documents/GitHub/499MCSim/Data/Book1.xlsx')
 
 graphArr = []
 for i in range(0, 24, 1):
